@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://www.basealt.ru/GroupPolicy/SecurityDefinitions">
+   <displayName>Just a sample</displayName>
+   <description>A sample</description>
+   <resources>
+     <stringTable>
+     </stringTable>
+   </resources>
+</policyDefinitionResources>
