@@ -1,280 +1,275 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SecurityDefinitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://www.basealt.ru/GroupPolicy/SecurityDefinitions">
-  <policyNamespaces>
-    <target prefix="control" namespace="BaseALT.Policies.Control" />
-    <using prefix="system" namespace="BaseALT.Policies.System" />
-  </policyNamespaces>
-  <resources minRequiredRevision="1.0" />
+<securityDefinitions revision="1.0" schemaVersion="1.0" xmlns="http://www.basealt.ru/GroupPolicy/SecurityDefinitions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <security>
     <securityDefinition class="Machine" displayName="$(string.SeTrustedCredManAccessPrivilege)" explainText="$(string.SeTrustedCredManAccessPrivilege_Help)" sectionName="Privilege Rights" name="SeTrustedCredManAccessPrivilege" presentation="$(presentation.SeTrustedCredManAccessPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeTrustedCredManAccessPrivilege" valueName="SeTrustedCredManAccessPrivilege" required="true" />
+        <text id="SeTrustedCredManAccessPrivilege" propertyName="SeTrustedCredManAccessPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeNetworkLogonRight)" explainText="$(string.SeNetworkLogonRight_Help)" sectionName="Privilege Rights" name="SeNetworkLogonRight" presentation="$(presentation.SeNetworkLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeNetworkLogonRight" valueName="SeNetworkLogonRight" required="true" />
+        <text id="SeNetworkLogonRight" propertyName="SeNetworkLogonRight" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeTcbPrivilege)" explainText="$(string.SeTcbPrivilege_Help)" sectionName="Privilege Rights" name="SeTcbPrivilege" presentation="$(presentation.SeTcbPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeTcbPrivilege" valueName="SeTcbPrivilege" required="true" />
+        <text id="SeTcbPrivilege" propertyName="SeTcbPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeMachineAccountPrivilege)" explainText="$(string.SeMachineAccountPrivilege_Help)" sectionName="Privilege Rights" name="SeMachineAccountPrivilege" presentation="$(presentation.SeMachineAccountPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeMachineAccountPrivilege" valueName="SeMachineAccountPrivilege" required="true" />
+        <text id="SeMachineAccountPrivilege" propertyName="SeMachineAccountPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeIncreaseQuotaPrivilege)" explainText="$(string.SeIncreaseQuotaPrivilege_Help)" sectionName="Privilege Rights" name="SeIncreaseQuotaPrivilege" presentation="$(presentation.SeIncreaseQuotaPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeIncreaseQuotaPrivilege" valueName="SeIncreaseQuotaPrivilege" required="true" />
+        <text id="SeIncreaseQuotaPrivilege" propertyName="SeIncreaseQuotaPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeInteractiveLogonRight)" explainText="$(string.SeInteractiveLogonRight_Help)" sectionName="Privilege Rights" name="SeInteractiveLogonRight" presentation="$(presentation.SeInteractiveLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeInteractiveLogonRight" valueName="SeInteractiveLogonRight" required="true" />
+        <text id="SeInteractiveLogonRight" propertyName="SeInteractiveLogonRight" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeRemoteinteractiveLogonRight)" explainText="$(string.SeRemoteinteractiveLogonRight_Help)" sectionName="Privilege Rights" name="SeRemoteinteractiveLogonRight" presentation="$(presentation.SeRemoteinteractiveLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeRemoteinteractiveLogonRight" valueName="SeRemoteinteractiveLogonRight" required="true" />
+        <text id="SeRemoteinteractiveLogonRight" propertyName="SeRemoteinteractiveLogonRight" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeBackupPrivilege)" explainText="$(string.SeBackupPrivilege_Help)" sectionName="Privilege Rights" name="SeBackupPrivilege" presentation="$(presentation.SeBackupPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeBackupPrivilege" valueName="SeBackupPrivilege" required="true" />
+        <text id="SeBackupPrivilege" propertyName="SeBackupPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeChangeNotifyPrivilege)" explainText="$(string.SeChangeNotifyPrivilege_Help)" sectionName="Privilege Rights" name="SeChangeNotifyPrivilege" presentation="$(presentation.SeChangeNotifyPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeChangeNotifyPrivilege" valueName="SeChangeNotifyPrivilege" required="true" />
+        <text id="SeChangeNotifyPrivilege" propertyName="SeChangeNotifyPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeSystemtimePrivilege)" explainText="$(string.SeSystemtimePrivilege_Help)" sectionName="Privilege Rights" name="SeSystemtimePrivilege" presentation="$(presentation.SeSystemtimePrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeSystemtimePrivilege" valueName="SeSystemtimePrivilege" required="true" />
+        <text id="SeSystemtimePrivilege" propertyName="SeSystemtimePrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeTimeZonePrivilege)" explainText="$(string.SeTimeZonePrivilege_Help)" sectionName="Privilege Rights" name="SeTimeZonePrivilege" presentation="$(presentation.SeTimeZonePrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeTimeZonePrivilege" valueName="SeTimeZonePrivilege" required="true" />
+        <text id="SeTimeZonePrivilege" propertyName="SeTimeZonePrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeCreatePagefilePrivilege)" explainText="$(string.SeCreatePagefilePrivilege_Help)" sectionName="Privilege Rights" name="SeCreatePagefilePrivilege" presentation="$(presentation.SeCreatePagefilePrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeCreatePagefilePrivilege" valueName="SeCreatePagefilePrivilege" required="true" />
+        <text id="SeCreatePagefilePrivilege" propertyName="SeCreatePagefilePrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeCreateTokenPrivilege)" explainText="$(string.SeCreateTokenPrivilege_Help)" sectionName="Privilege Rights" name="SeCreateTokenPrivilege" presentation="$(presentation.SeCreateTokenPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeCreateTokenPrivilege" valueName="SeCreateTokenPrivilege" required="true" />
+        <text id="SeCreateTokenPrivilege" propertyName="SeCreateTokenPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeCreateGlobalPrivilege)" explainText="$(string.SeCreateGlobalPrivilege_Help)" sectionName="Privilege Rights" name="SeCreateGlobalPrivilege" presentation="$(presentation.SeCreateGlobalPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeCreateGlobalPrivilege" valueName="SeCreateGlobalPrivilege" required="true" />
+        <text id="SeCreateGlobalPrivilege" propertyName="SeCreateGlobalPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeCreatePermanentPrivilege)" explainText="$(string.SeCreatePermanentPrivilege_Help)" sectionName="Privilege Rights" name="SeCreatePermanentPrivilege" presentation="$(presentation.SeCreatePermanentPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeCreatePermanentPrivilege" valueName="SeCreatePermanentPrivilege" required="true" />
+        <text id="SeCreatePermanentPrivilege" propertyName="SeCreatePermanentPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeCreateSymbolicLinkPrivilege)" explainText="$(string.SeCreateSymbolicLinkPrivilege_Help)" sectionName="Privilege Rights" name="SeCreateSymbolicLinkPrivilege" presentation="$(presentation.SeCreateSymbolicLinkPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeCreateSymbolicLinkPrivilege" valueName="SeCreateSymbolicLinkPrivilege" required="true" />
+        <text id="SeCreateSymbolicLinkPrivilege" propertyName="SeCreateSymbolicLinkPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeDebugPrivilege)" explainText="$(string.SeDebugPrivilege_Help)" sectionName="Privilege Rights" name="SeDebugPrivilege" presentation="$(presentation.SeDebugPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeDebugPrivilege" valueName="SeDebugPrivilege" required="true" />
+        <text id="SeDebugPrivilege" propertyName="SeDebugPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeDenyNetworkLogonRight)" explainText="$(string.SeDenyNetworkLogonRight_Help)" sectionName="Privilege Rights" name="SeDenyNetworkLogonRight" presentation="$(presentation.SeDenyNetworkLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeDenyNetworkLogonRight" valueName="SeDenyNetworkLogonRight" required="true" />
+        <text id="SeDenyNetworkLogonRight" propertyName="SeDenyNetworkLogonRight" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeDenybatchLogonRight)" explainText="$(string.SeDenybatchLogonRight_Help)" sectionName="Privilege Rights" name="SeDenybatchLogonRight" presentation="$(presentation.SeDenybatchLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeDenybatchLogonRight" valueName="SeDenybatchLogonRight" required="true" />
+        <text id="SeDenybatchLogonRight" propertyName="SeDenybatchLogonRight" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeDenyserviceLogonRight)" explainText="$(string.SeDenyserviceLogonRight_Help)" sectionName="Privilege Rights" name="SeDenyserviceLogonRight" presentation="$(presentation.SeDenyserviceLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeDenyserviceLogonRight" valueName="SeDenyserviceLogonRight" required="true" />
+        <text id="SeDenyserviceLogonRight" propertyName="SeDenyserviceLogonRight" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeDenyinteractiveLogonRight)" explainText="$(string.SeDenyinteractiveLogonRight_Help)" sectionName="Privilege Rights" name="SeDenyinteractiveLogonRight" presentation="$(presentation.SeDenyinteractiveLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeDenyinteractiveLogonRight" valueName="SeDenyinteractiveLogonRight" required="true" />
+        <text id="SeDenyinteractiveLogonRight" propertyName="SeDenyinteractiveLogonRight" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeDenyremoteinteractiveLogonRight)" explainText="$(string.SeDenyremoteinteractiveLogonRight_Help)" sectionName="Privilege Rights" name="SeDenyremoteinteractiveLogonRight" presentation="$(presentation.SeDenyremoteinteractiveLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeDenyremoteinteractiveLogonRight" valueName="SeDenyremoteinteractiveLogonRight" required="true" />
+        <text id="SeDenyremoteinteractiveLogonRight" propertyName="SeDenyremoteinteractiveLogonRight" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeEnableDelegationPrivilege)" explainText="$(string.SeEnableDelegationPrivilege_Help)" sectionName="Privilege Rights" name="SeEnableDelegationPrivilege" presentation="$(presentation.SeEnableDelegationPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeEnableDelegationPrivilege" valueName="SeEnableDelegationPrivilege" required="true" />
+        <text id="SeEnableDelegationPrivilege" propertyName="SeEnableDelegationPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeRemoteShutdownPrivilege)" explainText="$(string.SeRemoteShutdownPrivilege_Help)" sectionName="Privilege Rights" name="SeRemoteShutdownPrivilege" presentation="$(presentation.SeRemoteShutdownPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeRemoteShutdownPrivilege" valueName="SeRemoteShutdownPrivilege" required="true" />
+        <text id="SeRemoteShutdownPrivilege" propertyName="SeRemoteShutdownPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeAuditPrivilege)" explainText="$(string.SeAuditPrivilege_Help)" sectionName="Privilege Rights" name="SeAuditPrivilege" presentation="$(presentation.SeAuditPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeAuditPrivilege" valueName="SeAuditPrivilege" required="true" />
+        <text id="SeAuditPrivilege" propertyName="SeAuditPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeImpersonatePrivilege)" explainText="$(string.SeImpersonatePrivilege_Help)" sectionName="Privilege Rights" name="SeImpersonatePrivilege" presentation="$(presentation.SeImpersonatePrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeImpersonatePrivilege" valueName="SeImpersonatePrivilege" required="true" />
+        <text id="SeImpersonatePrivilege" propertyName="SeImpersonatePrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeIncreaseWorkingSetPrivilege)" explainText="$(string.SeIncreaseWorkingSetPrivilege_Help)" sectionName="Privilege Rights" name="SeIncreaseWorkingSetPrivilege" presentation="$(presentation.SeIncreaseWorkingSetPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeIncreaseWorkingSetPrivilege" valueName="SeIncreaseWorkingSetPrivilege" required="true" />
+        <text id="SeIncreaseWorkingSetPrivilege" propertyName="SeIncreaseWorkingSetPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeIncreaseBasePriorityPrivilege)" explainText="$(string.SeIncreaseBasePriorityPrivilege_Help)" sectionName="Privilege Rights" name="SeIncreaseBasePriorityPrivilege" presentation="$(presentation.SeIncreaseBasePriorityPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeIncreaseBasePriorityPrivilege" valueName="SeIncreaseBasePriorityPrivilege" required="true" />
+        <text id="SeIncreaseBasePriorityPrivilege" propertyName="SeIncreaseBasePriorityPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeLoadDriverPrivilege)" explainText="$(string.SeLoadDriverPrivilege_Help)" sectionName="Privilege Rights" name="SeLoadDriverPrivilege" presentation="$(presentation.SeLoadDriverPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeLoadDriverPrivilege" valueName="SeLoadDriverPrivilege" required="true" />
+        <text id="SeLoadDriverPrivilege" propertyName="SeLoadDriverPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeLockMemoryPrivilege)" explainText="$(string.SeLockMemoryPrivilege_Help)" sectionName="Privilege Rights" name="SeLockMemoryPrivilege" presentation="$(presentation.SeLockMemoryPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeLockMemoryPrivilege" valueName="SeLockMemoryPrivilege" required="true" />
+        <text id="SeLockMemoryPrivilege" propertyName="SeLockMemoryPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeBatchLogonRight)" explainText="$(string.SeBatchLogonRight_Help)" sectionName="Privilege Rights" name="SeBatchLogonRight" presentation="$(presentation.SeBatchLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeBatchLogonRight" valueName="SeBatchLogonRight" required="true" />
+        <text id="SeBatchLogonRight" propertyName="SeBatchLogonRight" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeServiceLogonRight)" explainText="$(string.SeServiceLogonRight_Help)" sectionName="Privilege Rights" name="SeServiceLogonRight" presentation="$(presentation.SeServiceLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeServiceLogonRight" valueName="SeServiceLogonRight" required="true" />
+        <text id="SeServiceLogonRight" propertyName="SeServiceLogonRight" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeSecurityPrivilege)" explainText="$(string.SeSecurityPrivilege_Help)" sectionName="Privilege Rights" name="SeSecurityPrivilege" presentation="$(presentation.SeSecurityPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeSecurityPrivilege" valueName="SeSecurityPrivilege" required="true" />
+        <text id="SeSecurityPrivilege" propertyName="SeSecurityPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeRelabelPrivilege)" explainText="$(string.SeRelabelPrivilege_Help)" sectionName="Privilege Rights" name="SeRelabelPrivilege" presentation="$(presentation.SeRelabelPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeRelabelPrivilege" valueName="SeRelabelPrivilege" required="true" />
+        <text id="SeRelabelPrivilege" propertyName="SeRelabelPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeSystemEnvironmentPrivilege)" explainText="$(string.SeSystemEnvironmentPrivilege_Help)" sectionName="Privilege Rights" name="SeSystemEnvironmentPrivilege" presentation="$(presentation.SeSystemEnvironmentPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeSystemEnvironmentPrivilege" valueName="SeSystemEnvironmentPrivilege" required="true" />
+        <text id="SeSystemEnvironmentPrivilege" propertyName="SeSystemEnvironmentPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeDelegateSessionUserImpersonatePrivilege)" explainText="$(string.SeDelegateSessionUserImpersonatePrivilege_Help)" sectionName="Privilege Rights" name="SeDelegateSessionUserImpersonatePrivilege" presentation="$(presentation.SeDelegateSessionUserImpersonatePrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeDelegateSessionUserImpersonatePrivilege" valueName="SeDelegateSessionUserImpersonatePrivilege" required="true" />
+        <text id="SeDelegateSessionUserImpersonatePrivilege" propertyName="SeDelegateSessionUserImpersonatePrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeManageVolumePrivilege)" explainText="$(string.SeManageVolumePrivilege_Help)" sectionName="Privilege Rights" name="SeManageVolumePrivilege" presentation="$(presentation.SeManageVolumePrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeManageVolumePrivilege" valueName="SeManageVolumePrivilege" required="true" />
+        <text id="SeManageVolumePrivilege" propertyName="SeManageVolumePrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeProfileSingleProcessPrivilege)" explainText="$(string.SeProfileSingleProcessPrivilege_Help)" sectionName="Privilege Rights" name="SeProfileSingleProcessPrivilege" presentation="$(presentation.SeProfileSingleProcessPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeProfileSingleProcessPrivilege" valueName="SeProfileSingleProcessPrivilege" required="true" />
+        <text id="SeProfileSingleProcessPrivilege" propertyName="SeProfileSingleProcessPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeSystemProfilePrivilege)" explainText="$(string.SeSystemProfilePrivilege_Help)" sectionName="Privilege Rights" name="SeSystemProfilePrivilege" presentation="$(presentation.SeSystemProfilePrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeSystemProfilePrivilege" valueName="SeSystemProfilePrivilege" required="true" />
+        <text id="SeSystemProfilePrivilege" propertyName="SeSystemProfilePrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeUndockPrivilege)" explainText="$(string.SeUndockPrivilege_Help)" sectionName="Privilege Rights" name="SeUndockPrivilege" presentation="$(presentation.SeUndockPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeUndockPrivilege" valueName="SeUndockPrivilege" required="true" />
+        <text id="SeUndockPrivilege" propertyName="SeUndockPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeAssignPrimaryTokenPrivilege)" explainText="$(string.SeAssignPrimaryTokenPrivilege_Help)" sectionName="Privilege Rights" name="SeAssignPrimaryTokenPrivilege" presentation="$(presentation.SeAssignPrimaryTokenPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeAssignPrimaryTokenPrivilege" valueName="SeAssignPrimaryTokenPrivilege" required="true" />
+        <text id="SeAssignPrimaryTokenPrivilege" propertyName="SeAssignPrimaryTokenPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeRestorePrivilege)" explainText="$(string.SeRestorePrivilege_Help)" sectionName="Privilege Rights" name="SeRestorePrivilege" presentation="$(presentation.SeRestorePrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeRestorePrivilege" valueName="SeRestorePrivilege" required="true" />
+        <text id="SeRestorePrivilege" propertyName="SeRestorePrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeShutdownPrivilege)" explainText="$(string.SeShutdownPrivilege_Help)" sectionName="Privilege Rights" name="SeShutdownPrivilege" presentation="$(presentation.SeShutdownPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeShutdownPrivilege" valueName="SeShutdownPrivilege" required="true" />
+        <text id="SeShutdownPrivilege" propertyName="SeShutdownPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeSyncAgentPrivilege)" explainText="$(string.SeSyncAgentPrivilege_Help)" sectionName="Privilege Rights" name="SeSyncAgentPrivilege" presentation="$(presentation.SeSyncAgentPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeSyncAgentPrivilege" valueName="SeSyncAgentPrivilege" required="true" />
+        <text id="SeSyncAgentPrivilege" propertyName="SeSyncAgentPrivilege" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeTakeOwnershipPrivilege)" explainText="$(string.SeTakeOwnershipPrivilege_Help)" sectionName="Privilege Rights" name="SeTakeOwnershipPrivilege" presentation="$(presentation.SeTakeOwnershipPrivilege_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeTakeOwnershipPrivilege" valueName="SeTakeOwnershipPrivilege" required="true" />
+        <text id="SeTakeOwnershipPrivilege" propertyName="SeTakeOwnershipPrivilege" required="true" />
       </elements>
     </securityDefinition>
   </security>
-</SecurityDefinitions>
+</securityDefinitions>
