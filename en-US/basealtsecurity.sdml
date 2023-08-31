@@ -492,28 +492,28 @@ Default: Administrators.</string>
 
      <presentationTable>
        <presentation id="SeTrustedCredManAccessPrivilege_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeTrustedCredManAccessPrivilege" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeNetworkLogonRight_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeNetworkLogonRight" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeTcbPrivilege_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeTcbPrivilege" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeMachineAccountPrivilege_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeMachineAccountPrivilege" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeInteractiveLogonRight_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeInteractiveLogonRight" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeRemoteInteractiveLogonRight_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeRemoteInteractiveLogonRight" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeBackupPrivilege_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeBackupPrivilege" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeChangeNotifyPrivilege_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeChangeNotifyPrivilege" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeSystemtimePrivilege_Presentation">
          <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
@@ -597,25 +597,25 @@ Default: Administrators.</string>
          <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeSystemProfilePrivilege_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeSystemProfilePrivilege" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeUndockPrivilege_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeUndockPrivilege" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeAssignPrimaryTokenPrivilege_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeAssignPrimaryTokenPrivilege" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeRestorePrivilege_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeRestorePrivilege" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeShutdownPrivilege_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeShutdownPrivilege" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeSyncAgentPrivilege_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeSyncAgentPrivilege" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
        <presentation id="SeTakeOwnershipPrivilege_Presentation">
-         <ldapSearchDialog refId="" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
+         <ldapSearchDialog refId="SeTakeOwnershipPrivilege" dn="" filter="" addLabel="Add User or Group ..." removeLabel="Remove"></ldapSearchDialog>
        </presentation>
      </presentationTable>
    </resources>
