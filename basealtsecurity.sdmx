@@ -37,10 +37,10 @@
         <text id="SeInteractiveLogonRight" propertyName="SeInteractiveLogonRight" required="true" />
       </elements>
     </securityDefinition>
-    <securityDefinition class="Machine" displayName="$(string.SeRemoteinteractiveLogonRight)" explainText="$(string.SeRemoteinteractiveLogonRight_Help)" sectionName="Privilege Rights" name="SeRemoteinteractiveLogonRight" presentation="$(presentation.SeRemoteinteractiveLogonRight_Presentation)">
+    <securityDefinition class="Machine" displayName="$(string.SeRemoteInteractiveLogonRight)" explainText="$(string.SeRemoteInteractiveLogonRight_Help)" sectionName="Privilege Rights" name="SeRemoteInteractiveLogonRight" presentation="$(presentation.SeRemoteInteractiveLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeRemoteinteractiveLogonRight" propertyName="SeRemoteinteractiveLogonRight" required="true" />
+        <text id="SeRemoteInteractiveLogonRight" propertyName="SeRemoteInteractiveLogonRight" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeBackupPrivilege)" explainText="$(string.SeBackupPrivilege_Help)" sectionName="Privilege Rights" name="SeBackupPrivilege" presentation="$(presentation.SeBackupPrivilege_Presentation)">
@@ -109,28 +109,28 @@
         <text id="SeDenyNetworkLogonRight" propertyName="SeDenyNetworkLogonRight" required="true" />
       </elements>
     </securityDefinition>
-    <securityDefinition class="Machine" displayName="$(string.SeDenybatchLogonRight)" explainText="$(string.SeDenybatchLogonRight_Help)" sectionName="Privilege Rights" name="SeDenybatchLogonRight" presentation="$(presentation.SeDenybatchLogonRight_Presentation)">
+    <securityDefinition class="Machine" displayName="$(string.SeDenyBatchLogonRight)" explainText="$(string.SeDenyBatchLogonRight_Help)" sectionName="Privilege Rights" name="SeDenyBatchLogonRight" presentation="$(presentation.SeDenyBatchLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeDenybatchLogonRight" propertyName="SeDenybatchLogonRight" required="true" />
+        <text id="SeDenyBatchLogonRight" propertyName="SeDenyBatchLogonRight" required="true" />
       </elements>
     </securityDefinition>
-    <securityDefinition class="Machine" displayName="$(string.SeDenyserviceLogonRight)" explainText="$(string.SeDenyserviceLogonRight_Help)" sectionName="Privilege Rights" name="SeDenyserviceLogonRight" presentation="$(presentation.SeDenyserviceLogonRight_Presentation)">
+    <securityDefinition class="Machine" displayName="$(string.SeDenyServiceLogonRight)" explainText="$(string.SeDenyServiceLogonRight_Help)" sectionName="Privilege Rights" name="SeDenyServiceLogonRight" presentation="$(presentation.SeDenyServiceLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeDenyserviceLogonRight" propertyName="SeDenyserviceLogonRight" required="true" />
+        <text id="SeDenyServiceLogonRight" propertyName="SeDenyServiceLogonRight" required="true" />
       </elements>
     </securityDefinition>
-    <securityDefinition class="Machine" displayName="$(string.SeDenyinteractiveLogonRight)" explainText="$(string.SeDenyinteractiveLogonRight_Help)" sectionName="Privilege Rights" name="SeDenyinteractiveLogonRight" presentation="$(presentation.SeDenyinteractiveLogonRight_Presentation)">
+    <securityDefinition class="Machine" displayName="$(string.SeDenyInteractiveLogonRight)" explainText="$(string.SeDenyInteractiveLogonRight_Help)" sectionName="Privilege Rights" name="SeDenyInteractiveLogonRight" presentation="$(presentation.SeDenyInteractiveLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeDenyinteractiveLogonRight" propertyName="SeDenyinteractiveLogonRight" required="true" />
+        <text id="SeDenyInteractiveLogonRight" propertyName="SeDenyInteractiveLogonRight" required="true" />
       </elements>
     </securityDefinition>
-    <securityDefinition class="Machine" displayName="$(string.SeDenyremoteinteractiveLogonRight)" explainText="$(string.SeDenyremoteinteractiveLogonRight_Help)" sectionName="Privilege Rights" name="SeDenyremoteinteractiveLogonRight" presentation="$(presentation.SeDenyremoteinteractiveLogonRight_Presentation)">
+    <securityDefinition class="Machine" displayName="$(string.SeDenyRemoteInteractiveLogonRight)" explainText="$(string.SeDenyRemoteInteractiveLogonRight_Help)" sectionName="Privilege Rights" name="SeDenyRemoteInteractiveLogonRight" presentation="$(presentation.SeDenyRemoteInteractiveLogonRight_Presentation)">
       <parentCategory ref="system:ALT_UserRightsAssignment"/>
       <elements>
-        <text id="SeDenyremoteinteractiveLogonRight" propertyName="SeDenyremoteinteractiveLogonRight" required="true" />
+        <text id="SeDenyRemoteInteractiveLogonRight" propertyName="SeDenyRemoteInteractiveLogonRight" required="true" />
       </elements>
     </securityDefinition>
     <securityDefinition class="Machine" displayName="$(string.SeEnableDelegationPrivilege)" explainText="$(string.SeEnableDelegationPrivilege_Help)" sectionName="Privilege Rights" name="SeEnableDelegationPrivilege" presentation="$(presentation.SeEnableDelegationPrivilege_Presentation)">
